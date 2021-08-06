@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/imv_lista_locales"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+
+
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/txv_nombre_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="35dp"
+                android:textStyle="italic"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txv_distancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distancia"
+                android:textStyle="italic"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_conexion"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="60dp"
+
+            >
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"
+        ></TextView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/fondocoloresapp"
+
+
+    tools:context=".fragments.ReputacionFragment">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="550dp"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+    android:layout_gravity="center"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="¿Como estuvo tu paso por el local?"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        >
+
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/megusta"
+            ></ImageButton>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/nomegusta"
+            android:layout_marginLeft="20dp"
+            ></ImageButton>
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style_bordes_editext"
+        android:hint="Deja un comentario de tu experiencia en el local"
+        android:textSize="20dp"
+        android:gravity="center"
+        ></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_enviar_reputacion"
+        android:layout_marginTop="20dp"
+        android:layout_width="123dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="enviar"
+
+
+        ></com.google.android.material.button.MaterialButton>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

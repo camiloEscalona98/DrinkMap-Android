@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="550dp"
+    android:orientation="vertical"
+    android:background="@drawable/style_bordes_editext"
+    android:backgroundTint="#c2c2c2"
+
+    tools:context=".InfoFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_atras"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btnclose"
+
+
+            ></ImageButton>
+        <ImageButton
+            android:id="@+id/btn_menu_promociones_usuario"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botonmenu"
+            android:layout_marginLeft="180dp"
+
+            ></ImageButton>
+
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="171dp"
+        android:layout_marginLeft="70dp"
+
+        android:layout_marginRight="70dp"
+        android:background="@mipmap/camara"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        ></TextView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="18dp"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+
+            android:background="@drawable/circuloverde"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Conectado"
+            android:textSize="30dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Direccion:"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/txv_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javiera Carrera 255"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Contacto:"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/txv_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234556"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Horario:"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/txv_horario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:30-18:30"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Delivery:"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/txv_delivery"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="15dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mensajes"></ImageButton>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/iconogps"></ImageButton>
+        <ImageButton
+            android:id="@+id/btn_calificar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/iconocomentarios"></ImageButton>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:orientation="vertical"
+    >
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mapaActivity" />
+
+
+    <FrameLayout
+
+        android:id="@+id/contenedor_fragment_info"
+        android:layout_centerHorizontal="true"
+        android:layout_width="317dp"
+        android:layout_height="544dp"
+
+        android:layout_marginTop="40dp"></FrameLayout>
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn_vista_lista"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/vista"
+        android:onClick="vistaModoLista"
+
+        ></ImageButton>
+    <ImageButton
+        android:id="@+id/btn_configuracion_usuario"
+        android:layout_width="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="35dp"
+        android:background="@drawable/configuracion"
+        android:onClick="configuracionUsuario"
+        android:layout_marginTop="80dp"
+
+
+        ></ImageButton>
+
+
+</RelativeLayout>
+

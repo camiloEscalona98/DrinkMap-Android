@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item_promociones"
+        android:title="@string/promociones"
+        android:icon="@drawable/promociones"
+
+
+        />
+    <item
+        android:id="@+id/item_modificar"
+        android:title="Añadir"
+        android:icon="@drawable/anadir"
+
+        />
+
+    <item
+        android:id="@+id/item_mensajes"
+        android:title="@string/chat"
+        android:icon="@drawable/messageicon"
+
+
+
+        />
+
+    <item
+        android:id="@+id/item_configuracion"
+        android:title="@string/configuracion"
+        android:icon="@drawable/configuracion"
+
+        />
+
+
+</menu>

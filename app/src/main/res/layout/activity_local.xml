@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocoloresapp"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:orientation="vertical"
+    tools:context=".Vistas.LocalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+
+
+        >
+
+        <TextView
+            android:id="@+id/txv_conexion"
+            android:layout_width="230dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/desconectado"
+            android:textSize="25dp"
+
+            ></TextView>
+
+
+        <Switch
+            android:id="@+id/swt_conexion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="100dp"
+            android:textOn="On"
+            android:textOff="Off"
+            android:trackTint="#76ff03"
+            android:onClick="onclick"></Switch>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/contenedor_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="558dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        ></FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+
+        design:menu="@menu/menu_navigation"
+
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

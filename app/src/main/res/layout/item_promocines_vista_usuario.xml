@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="170dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/style_bordes_editext"
+    android:elevation="6dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="6dp">
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal"
+
+
+            >
+
+
+            <ImageView
+                android:id="@+id/imb_foto_usuario"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/style_bordes_editext"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/txv_valor_usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Valor"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txv_descripcion_usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="descripcion"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+                <TextView
+                    android:id="@+id/opciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

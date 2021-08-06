@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectobotilleria">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfiguracionUsuario.ConCuentaUsuarioActivity"></activity>
+        <activity android:name=".Reputacion.ReputacionUsuarioActivity" />
+        <activity android:name=".PromocionesVistaUsuario.VistaPromocionesUsuarioActivity" />
+        <activity android:name=".ConfiguracionLocal.ConReputacionActivity" />
+        <activity android:name=".ConfiguracionUsuario.ConUsuarioActivity" />
+        <activity android:name=".Vistas.VistaModoLIsta.VistaListaLocalesActivity" />
+        <activity android:name=".ConfiguracionLocal.ConCuentaActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ModPromociones.VistaPromociones" />
+        <activity android:name=".ModPromociones.AnadirPromocion" />
+        <activity android:name=".Registros.CamaraActivity" />
+        <activity android:name=".InicioSesion.InicioUsuariosActivity" />
+        <activity android:name=".InicioSesion.InicioLocalActivity" />
+        <activity android:name=".Vistas.LocalActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsUbicacionActivity"
+            android:label="@string/title_activity_maps_ubicacion" />
+        <activity
+            android:name=".mapaActivity"
+            android:label="@string/title_activity_mapa" />
+        <activity android:name=".Registros.RegistrarUsuario" />
+        <activity android:name=".Registros.RegistrarLocal" />
+        <activity android:name=".MainActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

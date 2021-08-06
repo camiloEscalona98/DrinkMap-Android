@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416982765945",
+    "firebase_url": "https://proyectobotilleria-2e58d.firebaseio.com",
+    "project_id": "proyectobotilleria-2e58d",
+    "storage_bucket": "proyectobotilleria-2e58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416982765945:android:11da79f2a1a292617b1fa8",
+        "android_client_info": {
+          "package_name": "com.example.proyectobotilleria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416982765945-1fv1i30nucbaeah0thfhhrtfi4l98201.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectobotilleria",
+            "certificate_hash": "98029da575b4ab6b5e934a10984245db4b2955ec"
+          }
+        },
+        {
+          "client_id": "416982765945-1t6lcpmf12tvobip8got7ihc2u9r37bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3rc_NMhcKMG0B8EEUPTHUH3mG7XvbNos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416982765945-1t6lcpmf12tvobip8got7ihc2u9r37bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

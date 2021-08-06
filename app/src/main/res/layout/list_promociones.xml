@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="160dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/style_bordes_editext"
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+
+
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/cardview_promociones"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imb_foto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            ></ImageView>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+
+                ></LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txv_valor"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Valor"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txv_descripcion"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:text="descripcion"
+                android:textSize="20dp"
+
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/fondocoloresapp"
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
